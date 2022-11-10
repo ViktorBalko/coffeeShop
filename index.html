@@ -1,19 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Shop</title>
-    <link href="./css/styles.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Shop</title>
+<link href="./css/styles.css" rel="stylesheet">
 
 </head>
 <body>
-
-            <a class="hello">
-                hello
+<div class="container">
+<!-- coffeeHeader -->
+<header class="header">
+<!-- coffeeLogoLink -->
+        <a class="header__logo-link" href="./index.html" target="_blank" rel="noopener noreferrer">
+            <svg class="header__logo-vector">
+                <use href="./images/sprite.svg#coffee-logo"></use>
+            </svg>
+        </a>
+<!-- header-navigate -->
+        <ul class="header-navigate">
+            <li class="header-navigate__item">
+                <a class="header-navigate__item-link" href="./index.html">Home</a></li>
+            <li class="header__navigate-item">
+                <a class="header__navigate-link" href="./">Menu</a></li>
+            <li class="header__navigate-item">
+                <a class="header__navigate-link" href="./">Reservation</a></li>
+            <li class="header__navigate-item">
+                <a class="header__navigate-link" href="./index.html">Shop</a></li>
+            <li class="header__navigate-item">
+                <a class="header__navigate-link" href="./">Pages</a></li>
+            <li class="header__navigate-item">
+                <a class="header__navigate-link" href="./">Contact</a></li>
+        </ul>
+</header>
+<!-- hero -->
+<section class="hero">
+        <h1 class="hero__title">Enjoy Your <br> Morning Coffee</h1>
+        <p class="hero__subtitle">The coofee is brewed by fist roasting the green coffee <br> beans over hot coals in brazier. Given to Opportunity</p>
+    <button class="hero__button" type="button" data-modal-open>Tasting Coffee</button>
+</section>
+<!-- popular-products  -->
+<section class="popular-products"> 
+    <ul class="popular-products__list">
+        <li class="popular-products__list-item">
+            <a href="" class="popular-products__list-link" target="_blank" rel="noopener noreferrer">
+            <h2 class="popular-products__list-title">Brazil Coffee Gred</h2>
+            <p class="popular-products__list-subtitle">Price - $320.00/ $358</p>
             </a>
-
-            <h1>giveMeMyCoffee</h1>
+        </li>
+        <li class="popular-products__list-item">
+            <a href="" class="popular-products__list-link" target="_blank" rel="noopener noreferrer">
+                <h2 class="popular-products__list-title">Brazil Coffee Gred</h2>
+                <p class="popular-products__list-subtitle">Price - $320.00/ $358</p>
+            </a>
+        </li>
+        <li class="popular-products__list-item">
+            <a href="" class="popular-products__list-link" target="_blank" rel="noopener noreferrer">
+                <h2 class="popular-products__list-title">Brazil Coffee Gred</h2>
+                <p class="popular-products__list-subtitle">Price - $320.00/ $358</p>
+            </a>
+        </li>
+        <li class="popular-products__list-item">
+            <a href="" class="popular-products__list-link" target="_blank" rel="noopener noreferrer">
+                <h2 class="popular-products__list-title">Brazil Coffee Gred</h2>
+                <p class="popular-products__list-subtitle">Price - $320.00/ $358</p>
+            </a>
+        </li>
+    </ul>
+</section>
+<!-- popular-coffee -->
+<section class="popular-coffee">
+    <p class="popular-coffee__subtitle">Menu</p>
+    <h2 class="popular-coffee__title">Coffee popular menu</h2>
+    <ul class="popular-coffee__mosaic">
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+            <li class="popular-coffee__mosaic-item">
+                <img class="popular-coffee__mosaic-item-image" src="./images/CoffeeShop (Copy10)/Bg@2x.png">
+                <h2 class="popular-coffee__mosaic-category">Americano rosted gred</h2>
+                <h3 class="popular-coffee__mosaic-price">$12.00</h3>
+            </li>
+    </ul>
+</section>
+<!-- coffee-maker -->
+<section class="coffee-maker">
+    <img class="coffee-maker__banner" src="./images/CoffeeShop (Copy9)/WDCM-G15L-1-removebg-preview 1@2x.png">
+    <h2 class="coffee-maker__title">Coffee <br> machine, buy for home</h2>
+    <p class="coffee-maker__subtitle">mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula
+        volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nib maximus, est eu, mattis nuce. preasent
+        ut quam quis quam venen atis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.</p>
+    <button class="coffee-maker__button">Discover Now</button>
+</section>
+<!-- customers -->
+<section class="customers">
+        <h2 class="customers__title">Says our customers</h2>
+            <ul class="customers__gallery">
+            <li class="customers__gallery-item">
+        <img class="customers__gallery-item-photo" src="images/manPhotoX2.png" >
+            <p class="customers__gallery-item-description">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+        <h2 class="customers__gallery-item-name">John Smith</h2>
+        <h3 class="customers__gallery-item-position">Product Designer</h3>
+        </li>
+        <li class="customers__gallery-item">
+            <img class="customers__gallery-item-photo" src="images/womanPhotoX2.png">
+            <p class="customers__gallery-item-description">Education WP is a special build for effective education & Learning
+                Management System site. Education WP is the next generation & one of the best education WordPress themes which
+                all the strength of eLearning WP..</p>
+            <h2 class="customers__gallery-item-name">Brett Lee</h2>
+            <h3 class="customers__gallery-item-position">User Experience Designer</h3>
+        </li>
+        <li class="customers__gallery-item">
+            <img class="customers__gallery-item-photo" src="images/manPhotoX2.png">
+            <p class="customers__gallery-item-description">Education WP is a special build for effective education & Learning
+                Management System site. Education WP is the next generation & one of the best education WordPress themes which
+                all the strength of eLearning WP..</p>
+            <h2 class="customers__gallery-item-name">John Smith</h2>
+            <h3 class="customers__gallery-item-position">Product Designer</h3>
+        </li>
+        <li class="customers__gallery-item">
+            <img class="customers__gallery-item-photo" src="images/womanPhotoX2.png">
+            <p class="customers__gallery-item-description">Education WP is a special build for effective education & Learning
+                Management System site. Education WP is the next generation & one of the best education WordPress themes which
+                all the strength of eLearning WP..</p>
+            <h2 class="customers__gallery-item-name">Brett Lee</h2>
+            <h3 class="customers__gallery-item-position">User Experience Designer</h3>
+        </li>
+        <li class="customers__gallery-item">
+            <img class="customers__gallery-item-photo" src="images/manPhotoX2.png">
+            <p class="customers__gallery-item-description">Education WP is a special build for effective education & Learning
+                Management System site. Education WP is the next generation & one of the best education WordPress themes which
+                all the strength of eLearning WP..</p>
+            <h2 class="customers__gallery-item-name">John Smith</h2>
+            <h3 class="customers__gallery-item-position">Product Designer</h3>
+        </li>
+        <li class="customers__gallery-item">
+            <img class="customers__gallery-item-photo" src="images/womanPhotoX2.png">
+            <p class="customers__gallery-item-description">Education WP is a special build for effective education & Learning
+                Management System site. Education WP is the next generation & one of the best education WordPress themes which
+                all the strength of eLearning WP..</p>
+            <h2 class="customers__gallery-item-name">Brett Lee</h2>
+            <h3 class="customers__gallery-item-position">User Experience Designer</h3>
+        </li>
+    </ul>
+</section>
+<!-- reservation -->
+<section class="reservation">
+    <img class="reservation__map-image" src="./images/maps.png">
+    <h2 class="reservation__title">Reservation</h2>
+    <h3 class="reservation__subtitle">Booking a table</h3>
+    <ul class="reservation__input-case">
+        <li class="reservation__input-item">
+            <input class="reservation__input-frame">
+        </li>
+        <li class="reservation__input-item">
+            <input class="reservation__input-frame">
+        </li>
+        <li class="reservation__input-item">
+            <input class="reservation__input-frame">
+        </li>
+    </ul>
+    <button class="reservationButton">Books table</button>
+</section>
+<!-- footer -->
+<footer class="footer">
+    <a class="footer__logo-link" href="./index.html" target="_blank" rel="noopener noreferrer">
+        <svg class="footer__logo-vector">
+            <use href="./images/sprite.svg#coffee-logo"></use>
+        </svg>
+    </a>
+<!-- footer-navigate -->
+    <ul class="footer__navigate-panel">
+        <li class="footer__navigate-item">
+            <a class="footer__navigate-item-link" href="./index.html">Home</a>
+        </li>
+        <li class="footer__navigate-item">
+            <a class="footer__navigate-link" href="./">Menu</a>
+        </li>
+        <li class="footer__navigate-item">
+            <a class="footer__navigate-link" href="./">Reservation</a>
+        </li>
+        <li class="footer__navigate-item">
+            <a class="footer__navigate-link" href="./index.html">Shop</a>
+        </li>
+        <li class="footer__navigate-item">
+            <a class="footer__navigate-link" href="./">Pages</a>
+        </li>
+        <li class="footer__navigate-item">
+            <a class="footer__navigate-link" href="./">Contact</a>
+        </li>
+    </ul>
+    <form class="footer__subscribe-form">
+        <label class="footer__subscribe-label" for="mail">
+            <input class="footer__subscribe-frame" placeholder="E-mail" type="email" name="mail" id="mail" />
+            <button class="footer__subscribe-button" type="submit">
+                <svg class="footer__subscribe-icon">
+                    <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+            </button>
+        </label>
+    </form>
+</footer>
+</div> 
+</div>
 
 </body>
 </html>

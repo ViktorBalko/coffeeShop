@@ -1,3 +1,61 @@
-.hello {
-  color: red;
+body {
+  background-color: rgba(0, 0, 0, 0.808);
+  margin-right: auto;
+  margin-left: auto;
+}
+.coffeeContainer {
+  /* box-sizing: border-box; */
+  width: 1100px;
+  /* width: 100%; */
+  padding-right: 45px;
+  padding-left: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: rgba(158, 5, 5, 0.897); */
+}
+
+.coffeeLogoVector {
+  fill: rgb(3, 139, 60);
+}
+
+.coffeeHeaderNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.coffeeHeaderNavItem {
+  display: inline-flex;
+  background-color: lightcoral;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 90px;
+}
+
+.coffeeHero {
+  display: flex;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: var(--background-footer-color); */
+  background-image: url("../images/coffeeHero.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+}
+
+.coffeePopProductBox {
+  display: flex;
+  flex-direction: row;
+}
+.coffeePopProductItem {
+  display: flex;
+  width: 220px;
+  height: 220px;
+  margin: 20px 20px;
+  /* background-color: lightseagreen; */
+  background-image: url("../images/popularProduct.png");
+  block-size: cover;
+  background-repeat: no-repeat;
 }
